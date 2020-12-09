@@ -4,3 +4,22 @@
 /* .breadcrumb-items:hover {
     color: black;
 } */
+
+.card {
+    background-color:hsl(0, 0%, 21%);
+}
+
+footer {
+    border-top: 2px solid hsl(0, 0%, 21%);
+}
+
+.card .overclick {
+    position: absolute;
+        top: 0; right: 0; bottom: 0; left: 0;
+        opacity: 0;
+        text-indent: -999em;
+        }
+        a.overclick:hover {            
+            background-color: var(--second-color);
+            opacity: 0.4;
+            }
