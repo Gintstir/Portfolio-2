@@ -4,7 +4,9 @@
 /* .breadcrumb-items:hover {
     color: black;
 } */
-
+html {
+  scroll-behavior: smooth;
+}
 .card {
     background-color:hsl(0, 0%, 21%);
 }
