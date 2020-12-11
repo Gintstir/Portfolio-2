@@ -1,15 +1,15 @@
 /* #breadcrumb-resume:hover {
     color: black;
 } */
-/* .breadcrumb-items:hover {
-    color: black;
-} */
+.breadcrumb-items:hover {
+    color: white !important;
+}
 html {
   scroll-behavior: smooth;
 }
-.card {
-    background-color:hsl(0, 0%, 21%);
-}
+/* .card {
+    background-color: ;
+} */
 
 footer {
     border-top: 2px solid hsl(0, 0%, 21%);
@@ -20,8 +20,34 @@ footer {
         top: 0; right: 0; bottom: 0; left: 0;
         opacity: 0;
         text-indent: -999em;
-        }
-        a.overclick:hover {            
-            background-color: var(--second-color);
-            opacity: 0.4;
-            }
+}
+a.overclick:hover {            
+    background-color: var(--second-color);
+    opacity: 0.4;
+}
+
+#solar-tracker:hover {
+    color: black;
+}
+
+.title,
+.subtitle {
+    font-family: 'Nunito', sans-serif;
+}
+
+#aboutMeText {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+div.ex {
+    max-width: 431px;
+    justify-items: center;
+    
+}
+
+/* div.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */

@@ -15,6 +15,10 @@
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <!-- cdn for Bulma extension css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@4.0.0/dist/css/bulma-extensions.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap" rel="stylesheet">
     <!-- link to style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -22,145 +26,195 @@
     <!-- <link rel="stylesheet" href="assets/css/debug.css"> -->
 </head>
 <body>
-    <section class="hero is-dark is-fullheight">
+    <section class="hero has-background-info-light is-fullheight">
         <!-- hero heade -->
         <div class="hero-head">
-            <nav class="breadcrumb is-centered is-small mt-4 has-text-white" aria-label="breadcrumbs">
+            
+            <nav class="breadcrumb is-centered is-medium mt-4 has-text-white" aria-label="breadcrumbs">
                 <ul >
                   
                   <li>
-                    <a href="#about-me" class="breadcrumb-items" >
-                      <span class="icon is-small has-text-white">
+                    <a href="#about-me" class="breadcrumb-items has-text-primary" >
+                      <span class="icon is-small ">
                         <i class="fas fa-user-astronaut" aria-hidden="true"></i>
                       </span>
-                      <span class="has-text-white">About Me</span>
+                      <span >About Me</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#my-projects" class="breadcrumb-items">
-                      <span class="icon is-small has-text-white">
+                    <a href="#my-projects" class="breadcrumb-items has-text-warning">
+                      <span class="icon is-small">
                         <i class="fas fa-code-branch" aria-hidden="true"></i>
                       </span>
-                      <span class="has-text-white">My Projects</span>
+                      <span >My Projects</span>
                     </a>
                   </li>
                   <li>
-                    <a href="#contact-me" class="breadcrumb-items">
-                      <span class="icon is-small has-text-white">
+                    <a href="#contact-me" class="breadcrumb-items has-text-info">
+                      <span class="icon is-small ">
                         <i class="far fa-paper-plane" aria-hidden="true"></i>
                       </span>
-                      <span class="has-text-white">Contact Me</span>
-                    </a>
-                  </li>
+                      <span >Contact Me</span>
+                    </a>                    
+                  </li>                  
                 </ul>
-            </nav>
+            </nav>           
+            
         </div>
         <!-- hero body -->
         <div class="hero-body">
-            <div class="container has-text-centered">                
-                <h1 class="title">
-                   Gintautas Stirbys
-                </h1>
-                <figure class="image is-128x128 is-inline-block">
-                    <img class="is-rounded" src="assets/images/tempprofpic.jpeg">
-                </figure>            
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-one-third is-offset-one-third is-hidden-touch">
+                        <div class="is-divider is-primary ex centered"></div>
+                        <div class="is-divider is-warning ex centered"></div>
+                        <div class="is-divider is-info ex centered"></div>
+
+                    </div>
+                </div>
+            
+            
+                <div class="columns">
+                    <div class="column has-text-centered is-one-third is-offset-one-third">                
+                        <div class="box has-background-grey">
+                            <figure class="image is-256x256 is-inline-block">
+                                <img class="is-rounded" src="assets/images/IMG_3694.JPG">
+                            </figure>
+                            <h1 class="title py-4">
+                                <span class="has-text-primary">G</span>intautas <span class="has-text-warning">P</span>. <span class="has-text-info">S</span>tirbys
+                                <div class="is-divider is-primary"></div>
+                                <a href="http://www.linkedin.com/in/gintautas-stirbys" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin has-text-primary"></i></a>
+                                <a href="http://www.instagram.com/gintstir/"  target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram has-text-warning"></i></a>
+                            </h1>
+                        </div>
+                    </div>
+                </div>  
+            
+            
+                <div class="columns">
+                    <div class="column is-one-third is-offset-one-third is-hidden-touch">
+                        <div class="is-divider is-primary ex centered"></div>
+                        <div class="is-divider is-warning ex centered"></div>
+                        <div class="is-divider is-info ex centered"></div>
+
+                    </div>
+                </div>
             </div>
-          </div>
+            
+        </div>
     </section>
-    <section class="section has-background-light">
+    <section class="section">
         <div class="container ">
             <div class="columns ">
-                <div class="column has-text-centered is-3">
-                    <p class="title" id="about-me">About Me</p>
+                <div class="column has-text-centered">
+                    <p class="title has-text-primary" id="about-me">About Me</p>
+                    <div class="is-divider is-info "></div>
                 </div>
                 
                 <div class="column is-9">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia magni enim doloribus voluptates assumenda doloremque architecto animi illum iusto expedita debitis modi, obcaecati, officia pariatur cupiditate reprehenderit laudantium blanditiis praesentium!</p>
+                    <p id="aboutMeText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia magni enim doloribus voluptates assumenda doloremque architecto animi illum iusto expedita debitis modi, obcaecati, officia pariatur cupiditate reprehenderit laudantium blanditiis praesentium!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section has-background-light">
+    <section class="section has-background-info-light">
         <div class="container py-6 px-4">
-            <div class="columns is-dektop is-vcentered">
-                <div class="column is-1 py-4 px-4 has-text-centered">
-                    <p class="title is-hidden-tablet">My Projects</p>                    
+            <div class="columns is-desktop is-vcentered">
+                <div class="column py-4 px-4 has-text-centered">
+                    <p class="title is-hidden-desktop has-text-warning">My Projects</p>  
+                    <div class="is-divider is-primary is-hidden-desktop"></div>                  
                 </div>
-                <div class="column is-4">
-                    <div class="card py-4 px-4 ">
+                <div class="column is-one-third">
+                    <div class="card has-background-grey py-4 px-4 ">
                         <div class="card-image">
                             <img src="assets/images/2020-12-09 15_15_33-Group 2 - Project 1 - Solar-Time-Tracker - Google Slides.png" alt="">
                         </div>                        
                         <div class="card-content has-text-centered">
-                           <a class="title has-text-white" href="https://technicalparadox.github.io/cbc-group2-project1/" target="_blank">Solar-Time-Tracker</a>
+                           <a class="subtitle has-text-primary" href="https://technicalparadox.github.io/cbc-group2-project1/" target="_blank" id="solar-tracker">Solar-Time-Tracker</a>
                         </div>                        
                     </div>
                 </div>
-                <div class="column is-4">
-                    <div class="card py-4 px-4">
+                <div class="column is-one-third is-two-thirds-tablet">
+                    <div class="card has-background-grey py-4 px-4">
                         <div class="card-image">
                             <img src="assets/images/2020-12-09 15_22_13-Weather Dashboard.png" alt="">
                         </div>
                         <div class="card-content has-text-centered">
-                            <a class="title has-text-white" href="https://gintstir.github.io/weather-api/" target="_blank" rel="noopener noreferrer">Weather-App</a>
+                            <a class="subtitle has-text-primary" href="https://gintstir.github.io/weather-api/" target="_blank" rel="noopener noreferrer">Weather-App</a>
                         </div>                        
                     </div>
                 </div>
                 <div class="column py-4 px-4 has-text-centered">
-                    <p class="title is-hidden-mobile" id="my-projects">My Projects</p>
+                    <p class="title is-hidden-touch has-text-warning" id="my-projects">My Projects</p>
+                    <div class="is-divider is-primary is-hidden-touch"></div>
+                    
                 </div>
             </div>            
-            <div class="columns">
+            <div class="columns is-desktop is-vcentered">
                 <div class="column">
-                    <div class="card py-4 px-4">
+                    <div class="card has-background-grey py-4 px-4">
                         <div class="card-image">
                             <img src="assets/images/screencapture-gintstir-github-io-taskmaster-pro-2020-12-10-09_56_01.png" alt="taskmaster-pro">
                         </div>
                         <div class="card-content has-text-centered">
-                            <a class="title has-text-white" href="https://gintstir.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">TaskMaster-Pro</a>
+                            <a class="subtitle has-text-info" href="https://gintstir.github.io/taskmaster-pro/" target="_blank" rel="noopener noreferrer">TaskMaster-Pro</a>
                         </div>        
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card py-4 px-4">
+                    <div class="card has-background-grey py-4 px-4">
                         <div class="card-image">
                             <img src="assets/images/screencapture-gintstir-github-io-git-it-done-2020-12-10-10_00_15.png" alt="Git-it-done">
                         </div>
                         <div class="card-content has-text-centered">
-                            <a class="title has-text-white" href="https://gintstir.github.io/git-it-done/" target="_blank" rel="noopener noreferrer">Git-it-Done</a>
+                            <a class="subtitle has-text-primary" href="https://gintstir.github.io/git-it-done/" target="_blank" rel="noopener noreferrer">Git-it-Done</a>
                         </div>       
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card py-4 px-4">
+                    <div class="card  has-background-grey py-4 px-4">
                         <div class="card-image">
-                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+                            <img src="assets/images/screencapture-gintstir-github-io-Portfolio-2020-12-11-12_14_38.png" alt="old portfolio">
                         </div>
-                        <div class="card-content">
-                            <p class="title has-text-centered has-text-white">Solar-Time-Tracker</p>
-                        </div>
-                    </div> 
+                        <div class="card-content has-text-centered">
+                            <a class="subtitle has-text-info" href="https://gintstir.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">Old Portfolio</a>
+                        </div>       
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="section has-background-light">
+
+
+    <!-- <section class="section">
+        <div class="container">
+            <div class="tile is-ancestor">
+                div.tile
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="section">
         <div class="container py-6 px-4">
             <div class="columns is-dektop is-vcentered">
-                <div class="column has-text-centered">
-                    <p class="title" id="contact-me">Contact Me</p>
+                <div class="column is-2 has-text-centered">
+                    <p class="title has-text-info" id="contact-me">Contact Me</p>
+                    <div class="is-divider is-warning "></div>
                 </div>
-                <div class="column has-text-centered">
-                    <a href="mailto:gint@gmail.com?subject = Feedback&body = Message">
+                <div class="column has-text-centered is-one-third-desktop ">
+                    <a  href="mailto:gint@gmail.com?subject = Feedback&body = Message">
                         <span class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></span><span class="subtitle">gint.stirbys@gmail.com</span></a>
                         
                     
                 </div>
+                <div class="is-divider-vertical is-primary"></div>
                 <div class="column has-text-centered">
                     <a href="https://github.com/Gintstir">
                         <span class="icon"><i class="fab fa-github-square" aria-hidden="true"></i></span><span class="subtitle">Github</span></a>
                         
                 </div>
+                <div class="is-divider-vertical is-primary"></div>
                 <div class="column has-text-centered">
                     <a href="#">
                         <span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span><span class="subtitle">(215) 435-2408</span></a>
@@ -172,10 +226,10 @@
     </section>
     
         
-    <footer class="footer has-background-light">
+    <footer class="footer has-max-height-30px has-background-info-light">
         <div class="content has-text-centered">
             <p >
-            <strong class="has-text-white">Ginautas P. Stirbys</strong>
+            <strong class="has-text-dark has-shadow subtitle">Ginautas P. Stirbys</strong>
             </p>
         </div>
     </footer>
